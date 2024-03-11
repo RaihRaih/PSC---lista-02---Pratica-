@@ -1,6 +1,5 @@
 /*Raissa Rodrigues - Sistemas de Informação
- * 19 .Escreva um programa que calcule os quadrados e cubos dos números 
- de 0 a 10 e imprima os valores resultantes em formato de tabela como a seguir:*/
+ * 1. Crie um algoritmo que leia um valor de hora (HH:MM) e informe (calcule) quantos minutos se passaram desde o início do dia (00:00).*/
 
  import java.util.Scanner;
 

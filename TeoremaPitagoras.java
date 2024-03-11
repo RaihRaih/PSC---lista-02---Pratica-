@@ -1,5 +1,5 @@
 /*Raissa Rodrigues - Sistemas de Informação
- *2. Escreva um programa que calcule o teorema de Pitágoras, representado pela expressão: c =a^2+b^2 */ 
+ *3. Escreva um programa que calcule o teorema de Pitágoras, representado pela expressão: c =a^2+b^2 */ 
 
 import java.util.Scanner;
 

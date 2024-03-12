@@ -1,5 +1,5 @@
 /*Raissa Rodrigues - Sistemas de Informação
- * 4.Crie um programa para calcular a regra de três.
+ * 4. Crie um programa para calcular a regra de três.
  */
 
  import java.util.Scanner;

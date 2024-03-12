@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class TeoremaPitago {
+public class Questao03 {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);

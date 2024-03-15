@@ -3,7 +3,7 @@
  * aparecer de maneira organizada e clara para a pessoa utilizadora. */
 import java.util.Scanner;
 
-public class Questao5 {
+public class Questao05 {
 
     public static void main(String[] args) {
 

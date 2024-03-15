@@ -6,7 +6,7 @@ consultado para entender as necessidades de cada indivíduo.*/
 
 import java.util.Scanner;
 
-public class Questao9
+public class Questao09
 {
 	public static void main(String[] args) {
 		

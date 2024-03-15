@@ -21,18 +21,42 @@ public class Questao9
         System.out.print("Digite a Altura (em Cm): ");
         altura = scanner.nextFloat();
         
-        System.out.print("Se você for uma mulher biológica, digite [m]/nSe voce for um homem biologico, digite [h]: ");
+        imc = pesoAtual/Math.pow(altura , 2);
+        
+        
+        System.out.print("Se você for uma mulher biológica, digite [m]"+"\nSe voce for um homem biologico, digite [h]: ");
         sexo = scanner.next();
         pessoa = sexo.charAt(0);
-        
-        if(pessoa == 'm' || pessoa == 'M'){
-            System.out.println("IMC - mulher: ");
-        } 
-        else if (pessoa == 'h' || pessoa == 'H'){
-            System.out.println("IMC - homem: ");
+                
+        if (pessoa == 'm' || pessoa == 'M') {
+        System.out.printf("IMC: %.2f%n", imc);
+
+            if (imc > 24) {
+                System.out.println("Está com Obesidade!");
+                
+            } else if (imc < 19) {
+                System.out.println("Está Abaixo do Normal!");
+                
+            } else {
+                System.out.println("Está Normal!");
+            }
+            
+        } else if (pessoa == 'h' || pessoa == 'H') {
+            System.out.printf("IMC: %.2f%n", imc);
+            if (imc > 29.9) {
+                System.out.println("Está com Obesidade!");
+                
+            } else if (imc < 20 ) {
+                System.out.println("Está Abaixo do Normal!");
+                
+            } else {
+                System.out.println("Está Normal!");
+            }
+        } else {
+            System.out.println("Opção inválida. Digite 'm' ou 'h'.");
         }
+
        
- 
         scanner.close();
     }
 }

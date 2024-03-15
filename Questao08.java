@@ -5,7 +5,7 @@ link em Mbps e, retornar o tempo total em minutos.*/
 
 import java.util.Scanner;
 
-public class Questao8
+public class Questao08
 {
 	public static void main(String[] args) {
 		

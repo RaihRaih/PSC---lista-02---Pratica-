@@ -1,3 +1,8 @@
+/*Raissa Rodrigues - Sistemas de Informação
+ * 12. Pesquise o valor aproximado de dias por mês e ajuste o programa anterior para exibir o 
+ * custo mensal em energia elétrica com o equipamento inserido.
+ */
+
 import java.util.Scanner;
 
 public class Questao12 {

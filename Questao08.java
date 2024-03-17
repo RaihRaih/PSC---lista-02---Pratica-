@@ -9,7 +9,7 @@ public class Questao08
 {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
         float tamanhoArquivo, velocidadeLink, tamanhoArquivoMb, tempoSegundos,tempoMinutos;
         System.out.print("Tamanho do arquivo (em MB): ");
         tamanhoArquivo = scanner.nextFloat();

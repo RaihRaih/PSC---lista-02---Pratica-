@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class Questao11
 {
 	public static void main(String[] args) {
-	    Scanner scanner = new Scanner(System.in);
-	    double potenciaEquipamento, horasPorDia, quantidadetotalHoras, valorKWh, consumoKWh, valorPago;
+	Scanner scanner = new Scanner(System.in);
+	double potenciaEquipamento, horasPorDia, quantidadetotalHoras, valorKWh, consumoKWh, valorPago;
 	    
 	    
-	    System.out.print("Informe a potência do equipamento (em Watts): ");
+	System.out.print("Informe a potência do equipamento (em Watts): ");
         potenciaEquipamento = scanner.nextDouble();
 
         System.out.print("Informe a quantidade de horas que o equipamento fica ligado por dia: ");

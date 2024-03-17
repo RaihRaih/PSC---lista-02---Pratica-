@@ -9,7 +9,7 @@ public class Questao10
 {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
         double litrosAgua, pesoAtual, converteMlParaLitro;
         
         System.out.print("Digite o peso Atual (em Kg): ");

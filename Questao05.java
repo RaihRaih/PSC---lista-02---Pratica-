@@ -20,7 +20,7 @@ public class Questao05 {
         area = largura * altura;
 
         // Calculando perímetro - perimetro = 2 * area
-        perimetro = 2 * area;
+        perimetro = 2 * (largura + altura)
 
         // Calculando diagonal - diagonal^2 = largura^2 + altura^2
         diagonal = Math.sqrt(Math.pow(largura, 2) + Math.pow(altura, 2));
